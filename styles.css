@@ -5,6 +5,7 @@ background: url(img/tavern-map-huge.png) no-repeat center center fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+background-blend-mode: darken;
 }
 
 h1, h2, h3, h4{
@@ -20,8 +21,14 @@ header h4 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#121213, white);
-    padding: 20px 0;
+    background-color:  #222222;
+    color: #ffbb00;
+    padding: 20px;
+    border: none;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .jumbotron {
@@ -30,13 +37,15 @@ header h4 {
     padding-bottom: 10%;
     background: url(img/dnd-tavern-big.jpg) no-repeat center center;
     background-size: cover;
+    border-style: solid;
+    border-color: #222222;
     height: 100%;    
     color: #ffbb00;
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
+    border-bottom: none;
     min-height: 200px;
 }
 
@@ -50,7 +59,7 @@ header h4 {
 }
 
 .carousel {
-    border: solid #ffffff62;
+    border: solid #ffffff49;
 }
 
 .tab-content {
@@ -62,6 +71,11 @@ header h4 {
 #loginModal .modal-header {
     background-color: black;
     color:#ffbb00;
+}
+
+.carousel-height {
+    height: 85vh;
+    padding-top: 10%;
 }
 
 /* #reserveModal .modal-header {
