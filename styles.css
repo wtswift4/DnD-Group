@@ -54,12 +54,16 @@ header h4 {
     color: #c59d30;
 }
 
+
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
     border: solid #ffffff49;
+    max-height: 700px;
+    overflow: hidden;
 }
 
 .tab-content {
