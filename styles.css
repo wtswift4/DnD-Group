@@ -67,23 +67,28 @@ h5 {
 
 .carousel {
     border: solid #ffffff49;
+    margin-top: 20px;
     max-height: 700px;
     overflow: hidden;
 }
 
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+/* .w-100 {
+    width: 100% !important;
+    height: ;
+} */
 
 #loginModal .modal-header {
-    background-color: black;
+    background-color: rgb(124, 112, 112);
     color:#ffbb00;
 }
 
 .accordion {
+    border: solid 1px, black;
     padding-bottom: 50;
+}
+
+.card {
+    border: solid black;
 }
 
 .accordion-height {
@@ -102,7 +107,7 @@ h5 {
 
 .card-body {
     background-color: #222222;
-    color: whitesmoke;
+    color: #ffffffa2;
 }
 
 .card {
