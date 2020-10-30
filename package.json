@@ -4,18 +4,20 @@
   "description": "Tales in the Tavern",
   "main": "index.html",
   "dependencies": {
-    "bootstrap-social": "^5.1.1",
     "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "lite-server": "^2.5.4",
     "popper.js": "^1.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    
+      },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",    
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
