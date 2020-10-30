@@ -12,12 +12,20 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    
-      },
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  },
   "scripts": {
-    "lite": "lite-server",    
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "repository": {
     "type": "git",
