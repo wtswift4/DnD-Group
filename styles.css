@@ -23,8 +23,6 @@ h5 {
     font-family: "Open Sans", sans-serif;
 }
 
-
-
 .site-footer {
     background-color:  #222222;
     color: #ffbb00;
@@ -38,8 +36,8 @@ h5 {
 
 .jumbotron {
     margin: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 9%;
+    padding-bottom: 9%;
     background: url(img/dnd-tavern-big.jpg) no-repeat center center;
     background-size: cover;
     border-style: solid;
