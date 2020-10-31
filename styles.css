@@ -78,8 +78,12 @@ h5 {
 } */
 
 #loginModal .modal-header {
-    background-color: rgb(124, 112, 112);
+    background-color:  #222222;
     color:#ffbb00;
+}
+
+a:hover {
+    color: #f1c240;
 }
 
 .accordion {
@@ -88,7 +92,7 @@ h5 {
 }
 
 .card {
-    border: solid black;
+    border: none;
 }
 
 .accordion-height {
@@ -110,9 +114,9 @@ h5 {
     color: #ffffffa2;
 }
 
-.card {
+/* .card {
     border: solid #ffffff49;
-}
+} */
 
 .responsiveCal {
     position: relative;
